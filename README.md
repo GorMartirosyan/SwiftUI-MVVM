@@ -30,7 +30,7 @@ It’s a real-world scenario demo with a ticking timer, custom navigation, modal
 
 ## 📦 MVVM_Base Package
 
-This project uses a lightweight internal library called `MVVM_Base`, developed by the author: [@gormartirosyan](https://github.com/gormartirosyan).  
+This project uses a lightweight internal library called `MVVM_Base`, developed by the author.  
 It contains base view model types, navigation helpers, Combine extensions, custom property wrappers, and more — designed to support this architecture.
 
 _Note: the package is private, so this project may not compile out of the box._
@@ -122,7 +122,7 @@ open SwiftUI-MVVM-DiscountFlow.xcodeproj
 ## 🧑‍💻 Author
 
 Gor Martirosyan  
-[github.com/gormartirosyan](https://github.com/gormartirosyan)  
+[@gormartirosyan](https://github.com/gormartirosyan)  
 iOS Developer
 
 ---
