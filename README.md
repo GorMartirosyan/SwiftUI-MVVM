@@ -90,7 +90,9 @@ SwiftUI-MVVM/
 
 ## 🖼 Demo
 
-![Demo](demo/demo.gif)
+<p align="center">
+  <img src="demo/demo.gif" alt="Demo" width="300"/>
+</p>
 
 > This short GIF demonstrates the full user flow — from countdown to final confirmation.
 
