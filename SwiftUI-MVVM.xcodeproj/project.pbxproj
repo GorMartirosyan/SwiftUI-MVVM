@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD473D352E10557E00806859 /* ContentViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD473D342E10557E00806859 /* ContentViewType.swift */; };
+		AD473D372E10806900806859 /* NotImplementedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD473D362E10806900806859 /* NotImplementedView.swift */; };
+		AD473D392E1087E700806859 /* PaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD473D382E1087E700806859 /* PaymentService.swift */; };
+		AD473D452E10A43700806859 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD473D442E10A43700806859 /* API.swift */; };
+		AD473D482E11829A00806859 /* Publishers+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD473D472E11829A00806859 /* Publishers+Ex.swift */; };
+		AD473D4D2E11879000806859 /* PaymentAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD473D4C2E11879000806859 /* PaymentAPI.swift */; };
+		AD473D4F2E12E84B00806859 /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD473D4E2E12E84B00806859 /* PaymentModel.swift */; };
+		AD473D532E13036200806859 /* PaymentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD473D522E13036200806859 /* PaymentType.swift */; };
+		AD473D552E13045200806859 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD473D542E13045200806859 /* Common.swift */; };
+		ADEA09E42E042FB800D10EAD /* SwiftUI_MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA09E32E042FB800D10EAD /* SwiftUI_MVVMApp.swift */; };
+		ADEA09E82E042FB900D10EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEA09E72E042FB900D10EAD /* Assets.xcassets */; };
+		ADEA09EB2E042FB900D10EAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEA09EA2E042FB900D10EAD /* Preview Assets.xcassets */; };
+		ADEA09FD2E04332A00D10EAD /* AppMasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA09FC2E04332A00D10EAD /* AppMasterView.swift */; };
+		ADEA09FF2E04333500D10EAD /* AppMasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA09FE2E04333500D10EAD /* AppMasterViewModel.swift */; };
+		ADEA0A042E04345900D10EAD /* DiscountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0A032E04345900D10EAD /* DiscountView.swift */; };
+		ADEA0A062E04346200D10EAD /* DiscountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0A052E04346200D10EAD /* DiscountViewModel.swift */; };
+		ADEA0A082E04346A00D10EAD /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0A072E04346A00D10EAD /* PaymentView.swift */; };
+		ADEA0A0A2E04347400D10EAD /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0A092E04347400D10EAD /* PaymentViewModel.swift */; };
+		ADEA0A0C2E04348200D10EAD /* FinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0A0B2E04348200D10EAD /* FinishView.swift */; };
+		ADEA0A0E2E04348B00D10EAD /* FinishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0A0D2E04348B00D10EAD /* FinishViewModel.swift */; };
+		ADEA0A102E04349800D10EAD /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0A0F2E04349800D10EAD /* Spinner.swift */; };
+		ADEA0A122E0435B800D10EAD /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0A112E0435B800D10EAD /* Preferences.swift */; };
+		ADEA0A142E0435CC00D10EAD /* ViewModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0A132E0435CC00D10EAD /* ViewModelBase.swift */; };
+		ADEA0A172E0437CA00D10EAD /* MVVM-Base in Frameworks */ = {isa = PBXBuildFile; productRef = ADEA0A162E0437CA00D10EAD /* MVVM-Base */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD473D342E10557E00806859 /* ContentViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewType.swift; sourceTree = "<group>"; };
+		AD473D362E10806900806859 /* NotImplementedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotImplementedView.swift; sourceTree = "<group>"; };
+		AD473D382E1087E700806859 /* PaymentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentService.swift; sourceTree = "<group>"; };
+		AD473D442E10A43700806859 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		AD473D472E11829A00806859 /* Publishers+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publishers+Ex.swift"; sourceTree = "<group>"; };
+		AD473D4C2E11879000806859 /* PaymentAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAPI.swift; sourceTree = "<group>"; };
+		AD473D4E2E12E84B00806859 /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		AD473D522E13036200806859 /* PaymentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentType.swift; sourceTree = "<group>"; };
+		AD473D542E13045200806859 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		ADEA09E02E042FB800D10EAD /* SwiftUI-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEA09E32E042FB800D10EAD /* SwiftUI_MVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVMApp.swift; sourceTree = "<group>"; };
+		ADEA09E72E042FB900D10EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADEA09EA2E042FB900D10EAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADEA09F32E04300700D10EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ADEA09FC2E04332A00D10EAD /* AppMasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMasterView.swift; sourceTree = "<group>"; };
+		ADEA09FE2E04333500D10EAD /* AppMasterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMasterViewModel.swift; sourceTree = "<group>"; };
+		ADEA0A032E04345900D10EAD /* DiscountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountView.swift; sourceTree = "<group>"; };
+		ADEA0A052E04346200D10EAD /* DiscountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViewModel.swift; sourceTree = "<group>"; };
+		ADEA0A072E04346A00D10EAD /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		ADEA0A092E04347400D10EAD /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		ADEA0A0B2E04348200D10EAD /* FinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishView.swift; sourceTree = "<group>"; };
+		ADEA0A0D2E04348B00D10EAD /* FinishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewModel.swift; sourceTree = "<group>"; };
+		ADEA0A0F2E04349800D10EAD /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		ADEA0A112E0435B800D10EAD /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		ADEA0A132E0435CC00D10EAD /* ViewModelBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBase.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADEA09DD2E042FB800D10EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEA0A172E0437CA00D10EAD /* MVVM-Base in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD473D432E10A42700806859 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AD473D492E11866C00806859 /* API */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AD473D462E11828400806859 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD473D472E11829A00806859 /* Publishers+Ex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AD473D492E11866C00806859 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AD473D4B2E11876400806859 /* Common */,
+				AD473D4A2E11867900806859 /* Payment */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AD473D4A2E11867900806859 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				AD473D4C2E11879000806859 /* PaymentAPI.swift */,
+				AD473D4E2E12E84B00806859 /* PaymentModel.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		AD473D4B2E11876400806859 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AD473D442E10A43700806859 /* API.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AD473D502E13032A00806859 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA09F92E04316F00D10EAD /* Services */,
+				AD473D512E13034400806859 /* Models */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD473D512E13034400806859 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD473D542E13045200806859 /* Common.swift */,
+				AD473D522E13036200806859 /* PaymentType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ADEA09D72E042FB800D10EAD = {
+			isa = PBXGroup;
+			children = (
+				ADEA09E22E042FB800D10EAD /* SwiftUI-MVVM */,
+				ADEA09E12E042FB800D10EAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADEA09E12E042FB800D10EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA09E02E042FB800D10EAD /* SwiftUI-MVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADEA09E22E042FB800D10EAD /* SwiftUI-MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA09F12E042FC500D10EAD /* Application */,
+				ADEA09F42E04303A00D10EAD /* View */,
+				AD473D502E13032A00806859 /* Model */,
+				AD473D432E10A42700806859 /* Data */,
+				ADEA09F82E04307700D10EAD /* Helpers */,
+				ADEA09F22E042FD100D10EAD /* Resources */,
+				ADEA09F32E04300700D10EAD /* Info.plist */,
+			);
+			path = "SwiftUI-MVVM";
+			sourceTree = "<group>";
+		};
+		ADEA09E92E042FB900D10EAD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA09EA2E042FB900D10EAD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADEA09F12E042FC500D10EAD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA09E32E042FB800D10EAD /* SwiftUI_MVVMApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		ADEA09F22E042FD100D10EAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD473D342E10557E00806859 /* ContentViewType.swift */,
+				ADEA09E72E042FB900D10EAD /* Assets.xcassets */,
+				ADEA09E92E042FB900D10EAD /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ADEA09F42E04303A00D10EAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA09F72E04305600D10EAD /* Master */,
+				ADEA09F52E04304900D10EAD /* Components */,
+				ADEA09F62E04305000D10EAD /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADEA09F52E04304900D10EAD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA0A0F2E04349800D10EAD /* Spinner.swift */,
+				AD473D362E10806900806859 /* NotImplementedView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ADEA09F62E04305000D10EAD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA0A012E04339200D10EAD /* Discount */,
+				ADEA0A002E04338B00D10EAD /* Payment */,
+				ADEA0A022E0433A500D10EAD /* Finish */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		ADEA09F72E04305600D10EAD /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA09FC2E04332A00D10EAD /* AppMasterView.swift */,
+				ADEA09FE2E04333500D10EAD /* AppMasterViewModel.swift */,
+			);
+			path = Master;
+			sourceTree = "<group>";
+		};
+		ADEA09F82E04307700D10EAD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD473D462E11828400806859 /* Extensions */,
+				ADEA0A112E0435B800D10EAD /* Preferences.swift */,
+				ADEA0A132E0435CC00D10EAD /* ViewModelBase.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ADEA09F92E04316F00D10EAD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AD473D382E1087E700806859 /* PaymentService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ADEA0A002E04338B00D10EAD /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA0A072E04346A00D10EAD /* PaymentView.swift */,
+				ADEA0A092E04347400D10EAD /* PaymentViewModel.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		ADEA0A012E04339200D10EAD /* Discount */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA0A032E04345900D10EAD /* DiscountView.swift */,
+				ADEA0A052E04346200D10EAD /* DiscountViewModel.swift */,
+			);
+			path = Discount;
+			sourceTree = "<group>";
+		};
+		ADEA0A022E0433A500D10EAD /* Finish */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA0A0B2E04348200D10EAD /* FinishView.swift */,
+				ADEA0A0D2E04348B00D10EAD /* FinishViewModel.swift */,
+			);
+			path = Finish;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADEA09DF2E042FB800D10EAD /* SwiftUI-MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEA09EE2E042FB900D10EAD /* Build configuration list for PBXNativeTarget "SwiftUI-MVVM" */;
+			buildPhases = (
+				ADEA09DC2E042FB800D10EAD /* Sources */,
+				ADEA09DD2E042FB800D10EAD /* Frameworks */,
+				ADEA09DE2E042FB800D10EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-MVVM";
+			packageProductDependencies = (
+				ADEA0A162E0437CA00D10EAD /* MVVM-Base */,
+			);
+			productName = "SwiftUI-MVVM";
+			productReference = ADEA09E02E042FB800D10EAD /* SwiftUI-MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADEA09D82E042FB800D10EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ADEA09DF2E042FB800D10EAD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = ADEA09DB2E042FB800D10EAD /* Build configuration list for PBXProject "SwiftUI-MVVM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADEA09D72E042FB800D10EAD;
+			packageReferences = (
+				ADEA0A152E0437CA00D10EAD /* XCRemoteSwiftPackageReference "MVVM-Base" */,
+			);
+			productRefGroup = ADEA09E12E042FB800D10EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADEA09DF2E042FB800D10EAD /* SwiftUI-MVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADEA09DE2E042FB800D10EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEA09EB2E042FB900D10EAD /* Preview Assets.xcassets in Resources */,
+				ADEA09E82E042FB900D10EAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADEA09DC2E042FB800D10EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD473D372E10806900806859 /* NotImplementedView.swift in Sources */,
+				ADEA09FF2E04333500D10EAD /* AppMasterViewModel.swift in Sources */,
+				AD473D4D2E11879000806859 /* PaymentAPI.swift in Sources */,
+				AD473D532E13036200806859 /* PaymentType.swift in Sources */,
+				ADEA0A082E04346A00D10EAD /* PaymentView.swift in Sources */,
+				AD473D352E10557E00806859 /* ContentViewType.swift in Sources */,
+				ADEA0A042E04345900D10EAD /* DiscountView.swift in Sources */,
+				AD473D482E11829A00806859 /* Publishers+Ex.swift in Sources */,
+				AD473D392E1087E700806859 /* PaymentService.swift in Sources */,
+				ADEA09FD2E04332A00D10EAD /* AppMasterView.swift in Sources */,
+				ADEA09E42E042FB800D10EAD /* SwiftUI_MVVMApp.swift in Sources */,
+				AD473D552E13045200806859 /* Common.swift in Sources */,
+				ADEA0A142E0435CC00D10EAD /* ViewModelBase.swift in Sources */,
+				ADEA0A0A2E04347400D10EAD /* PaymentViewModel.swift in Sources */,
+				ADEA0A062E04346200D10EAD /* DiscountViewModel.swift in Sources */,
+				AD473D452E10A43700806859 /* API.swift in Sources */,
+				ADEA0A122E0435B800D10EAD /* Preferences.swift in Sources */,
+				AD473D4F2E12E84B00806859 /* PaymentModel.swift in Sources */,
+				ADEA0A0C2E04348200D10EAD /* FinishView.swift in Sources */,
+				ADEA0A0E2E04348B00D10EAD /* FinishViewModel.swift in Sources */,
+				ADEA0A102E04349800D10EAD /* Spinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ADEA09EC2E042FB900D10EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADEA09ED2E042FB900D10EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADEA09EF2E042FB900D10EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-MVVM/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-MVVM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiftui-mvvm.SwiftUI-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADEA09F02E042FB900D10EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-MVVM/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-MVVM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiftui-mvvm.SwiftUI-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADEA09DB2E042FB800D10EAD /* Build configuration list for PBXProject "SwiftUI-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEA09EC2E042FB900D10EAD /* Debug */,
+				ADEA09ED2E042FB900D10EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEA09EE2E042FB900D10EAD /* Build configuration list for PBXNativeTarget "SwiftUI-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEA09EF2E042FB900D10EAD /* Debug */,
+				ADEA09F02E042FB900D10EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ADEA0A152E0437CA00D10EAD /* XCRemoteSwiftPackageReference "MVVM-Base" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GorMartirosyan/MVVM-Base";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADEA0A162E0437CA00D10EAD /* MVVM-Base */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADEA0A152E0437CA00D10EAD /* XCRemoteSwiftPackageReference "MVVM-Base" */;
+			productName = "MVVM-Base";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ADEA09D82E042FB800D10EAD /* Project object */;
+}

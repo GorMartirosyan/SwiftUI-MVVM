@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "mvvm-base",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/GorMartirosyan/MVVM-Base",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2682639e67b1572283f25642f6ead1801fd68a6e"
+      }
+    }
+  ],
+  "version" : 2
+}
