@@ -11,7 +11,6 @@ import Combine
 class AppMasterViewModel: ViewModelBase<AppMasterView.ViewState, AppMasterView.ViewInput> {
     
     @Preference(\.contentViewType) private static var contentViewType
-    private var sceneCancelable: AnyCancellable?
     
     init() {
         super.init(state: .init())
