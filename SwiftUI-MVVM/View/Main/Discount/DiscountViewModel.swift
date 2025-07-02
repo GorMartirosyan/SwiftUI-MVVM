@@ -10,8 +10,6 @@ import SwiftUI
 
 class DiscountViewModel: ViewModelBase<DiscountView.ViewState, DiscountView.ViewInput> {
     @Preference(\.contentViewType) var contentViewType
-    
-    var cancellables: [AnyCancellable] = []
 
     private var timerSubscription: Cancellable?
     private let timeLeftSubject = CurrentValueSubject<TimeInterval?, Never>(nil)
