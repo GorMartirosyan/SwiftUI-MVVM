@@ -112,7 +112,7 @@ Use this project to:
 
 ```bash
 git clone https://github.com/gormartirosyan/SwiftUI-MVVM.git
-open SwiftUI-MVVM-DiscountFlow.xcodeproj
+open SwiftUI-MVVM.xcodeproj
 ```
 
 > Note: You’ll need access to the `MVVM_Base` Swift package, or stub it out.
