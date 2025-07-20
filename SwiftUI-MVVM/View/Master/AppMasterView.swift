@@ -12,7 +12,7 @@ extension AppMasterView {
     
     struct ViewState {
         var contentViewType: ContentViewType?
-        var mainViewModel: DiscountView.ViewModel?
+        var discountViewModel: DiscountView.ViewModel?
         var finishViewModel: FinishView.ViewModel?
     }
     
@@ -25,7 +25,7 @@ struct AppMasterView: View {
     var body: some View {
         switch viewModel.contentViewType {
         case .main:
-            Unwrap(viewModel.mainViewModel) { DiscountView(viewModel: $0) }
+            Unwrap(viewModel.discountViewModel) { DiscountView(viewModel: $0) }
         case .finish:
             Unwrap(viewModel.finishViewModel) { FinishView(viewModel: $0) }
         case .none:

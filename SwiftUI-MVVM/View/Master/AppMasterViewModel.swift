@@ -29,7 +29,7 @@ class AppMasterViewModel: ViewModelBase<AppMasterView.ViewState, AppMasterView.V
         
         switch Self.contentViewType {
         case .main:
-            state.mainViewModel = createContentViewModel()
+            state.discountViewModel = createDiscountViewModel()
             
         case .finish:
             state.finishViewModel = createFinishViewModel()
@@ -40,7 +40,7 @@ class AppMasterViewModel: ViewModelBase<AppMasterView.ViewState, AppMasterView.V
         return FinishViewModel().toAnyViewModel()
     }
 
-    private func createContentViewModel() -> DiscountView.ViewModel? {
+    private func createDiscountViewModel() -> DiscountView.ViewModel? {
         return DiscountViewModel().toAnyViewModel()
     }
 
